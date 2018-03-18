@@ -1,0 +1,36 @@
+{
+  "name": "vue-router-state",
+  "version": "1.0.0",
+  "description": "VUE Implementation of a StateMachine based on VUEX and VUE-ROUTER to handle state management of routing VUE Pages consistent and simple",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "buble src/index.js > index.js",
+	"pretest": "npm run build",
+	"prepublishOnly": "npm run build"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wotamann/vue-router-state.git"
+  },
+  "keywords": [
+    "vuex",
+	"statemachine",
+    "vue-router",
+    "vue"
+  ],
+  "bugs": {
+    "url": "https://github.com/wotamann/vue-router-state/issues"
+  },
+  "homepage": "https://github.com/wotamann/vue-router-state#readme",
+  "devDependencies": {
+    "buble": "^0.16.0",
+    "jest": "^21.2.1",
+    "vue": "^2.5.0",
+    "vue-router": "^3.0.0",
+    "vuex": "^3.0.0"
+  },
+  "author": "wotamann",
+  "license": "MIT"
+ 
+}
